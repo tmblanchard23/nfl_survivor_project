@@ -1,0 +1,273 @@
+game_id,week,date,away_team,home_team,away_odds,home_odds,timestamp
+SRC0000,1,2026-09-13,Atlanta Falcons,Houston Texans,3.89,1.27,2026-08-20 12:00:00
+SRC0001,1,2026-09-13,Miami Dolphins,Detroit Lions,1.86,1.97,2026-08-20 12:00:00
+SRC0002,1,2026-09-13,San Francisco 49ers,Washington Commanders,6.64,1.12,2026-08-20 12:00:00
+SRC0003,1,2026-09-13,New York Giants,Los Angeles Chargers,2.0,1.84,2026-08-20 12:00:00
+SRC0004,1,2026-09-13,Las Vegas Raiders,Arizona Cardinals,5.73,1.15,2026-08-20 12:00:00
+SRC0005,1,2026-09-13,Baltimore Ravens,Cincinnati Bengals,1.56,2.49,2026-08-20 12:00:00
+SRC0006,1,2026-09-13,Cleveland Browns,Carolina Panthers,4.44,1.22,2026-08-20 12:00:00
+SRC0007,1,2026-09-13,New York Jets,Buffalo Bills,2.35,1.61,2026-08-20 12:00:00
+SRC0008,1,2026-09-13,New England Patriots,Philadelphia Eagles,2.74,1.47,2026-08-20 12:00:00
+SRC0009,1,2026-09-13,Jacksonville Jaguars,Tennessee Titans,4.43,1.22,2026-08-20 12:00:00
+SRC0010,1,2026-09-13,Dallas Cowboys,Pittsburgh Steelers,1.94,1.89,2026-08-20 12:00:00
+SRC0011,1,2026-09-13,New Orleans Saints,Los Angeles Rams,2.59,1.52,2026-08-20 12:00:00
+SRC0012,1,2026-09-13,Denver Broncos,Tampa Bay Buccaneers,2.4,1.59,2026-08-20 12:00:00
+SRC0013,1,2026-09-13,Chicago Bears,Minnesota Vikings,1.58,2.42,2026-08-20 12:00:00
+SRC0014,1,2026-09-13,Green Bay Packers,Kansas City Chiefs,2.41,1.59,2026-08-20 12:00:00
+SRC0015,1,2026-09-13,Seattle Seahawks,Indianapolis Colts,2.14,1.73,2026-08-20 12:00:00
+SRC0016,2,2026-09-20,Tampa Bay Buccaneers,Minnesota Vikings,2.77,1.46,2026-08-20 12:00:00
+SRC0017,2,2026-09-20,Cincinnati Bengals,Dallas Cowboys,4.58,1.21,2026-08-20 12:00:00
+SRC0018,2,2026-09-20,Arizona Cardinals,Green Bay Packers,1.74,2.13,2026-08-20 12:00:00
+SRC0019,2,2026-09-20,Baltimore Ravens,Pittsburgh Steelers,2.19,1.7,2026-08-20 12:00:00
+SRC0020,2,2026-09-20,New England Patriots,Seattle Seahawks,5.44,1.16,2026-08-20 12:00:00
+SRC0021,2,2026-09-20,Indianapolis Colts,Las Vegas Raiders,1.53,2.55,2026-08-20 12:00:00
+SRC0022,2,2026-09-20,Jacksonville Jaguars,Philadelphia Eagles,2.94,1.42,2026-08-20 12:00:00
+SRC0023,2,2026-09-20,Houston Texans,San Francisco 49ers,1.62,2.33,2026-08-20 12:00:00
+SRC0024,2,2026-09-20,Miami Dolphins,Atlanta Falcons,1.98,1.85,2026-08-20 12:00:00
+SRC0025,2,2026-09-20,Buffalo Bills,Denver Broncos,2.05,1.79,2026-08-20 12:00:00
+SRC0026,2,2026-09-20,Los Angeles Chargers,Cleveland Browns,1.66,2.25,2026-08-20 12:00:00
+SRC0027,2,2026-09-20,New York Giants,Chicago Bears,2.88,1.43,2026-08-20 12:00:00
+SRC0028,2,2026-09-20,Kansas City Chiefs,Washington Commanders,3.58,1.31,2026-08-20 12:00:00
+SRC0029,2,2026-09-20,Carolina Panthers,Los Angeles Rams,2.6,1.51,2026-08-20 12:00:00
+SRC0030,2,2026-09-20,New Orleans Saints,New York Jets,1.45,2.81,2026-08-20 12:00:00
+SRC0031,2,2026-09-20,Tennessee Titans,Detroit Lions,1.21,4.63,2026-08-20 12:00:00
+SRC0032,3,2026-09-27,Cleveland Browns,Indianapolis Colts,3.57,1.31,2026-08-20 12:00:00
+SRC0033,3,2026-09-27,Baltimore Ravens,Buffalo Bills,2.0,1.83,2026-08-20 12:00:00
+SRC0034,3,2026-09-27,Miami Dolphins,Detroit Lions,1.79,2.06,2026-08-20 12:00:00
+SRC0035,3,2026-09-27,San Francisco 49ers,Houston Texans,3.18,1.37,2026-08-20 12:00:00
+SRC0036,3,2026-09-27,Cincinnati Bengals,Tennessee Titans,6.33,1.13,2026-08-20 12:00:00
+SRC0037,3,2026-09-27,Pittsburgh Steelers,Philadelphia Eagles,2.32,1.63,2026-08-20 12:00:00
+SRC0038,3,2026-09-27,Chicago Bears,Atlanta Falcons,1.3,3.6,2026-08-20 12:00:00
+SRC0039,3,2026-09-27,Washington Commanders,Jacksonville Jaguars,1.15,5.7,2026-08-20 12:00:00
+SRC0040,3,2026-09-27,Green Bay Packers,Carolina Panthers,1.86,1.98,2026-08-20 12:00:00
+SRC0041,3,2026-09-27,Seattle Seahawks,Minnesota Vikings,1.62,2.35,2026-08-20 12:00:00
+SRC0042,3,2026-09-27,Tampa Bay Buccaneers,Las Vegas Raiders,1.9,1.93,2026-08-20 12:00:00
+SRC0043,3,2026-09-27,Los Angeles Rams,Los Angeles Chargers,1.54,2.54,2026-08-20 12:00:00
+SRC0044,3,2026-09-27,Arizona Cardinals,New England Patriots,1.38,3.11,2026-08-20 12:00:00
+SRC0045,3,2026-09-27,New Orleans Saints,New York Jets,1.35,3.28,2026-08-20 12:00:00
+SRC0046,3,2026-09-27,Denver Broncos,New York Giants,2.92,1.42,2026-08-20 12:00:00
+SRC0047,3,2026-09-27,Dallas Cowboys,Kansas City Chiefs,3.03,1.4,2026-08-20 12:00:00
+SRC0048,4,2026-10-04,Kansas City Chiefs,Minnesota Vikings,1.69,2.21,2026-08-20 12:00:00
+SRC0049,4,2026-10-04,Chicago Bears,Baltimore Ravens,1.52,2.58,2026-08-20 12:00:00
+SRC0050,4,2026-10-04,New York Jets,Tennessee Titans,6.39,1.13,2026-08-20 12:00:00
+SRC0051,4,2026-10-04,Miami Dolphins,Pittsburgh Steelers,2.55,1.53,2026-08-20 12:00:00
+SRC0052,4,2026-10-04,Atlanta Falcons,New Orleans Saints,3.82,1.28,2026-08-20 12:00:00
+SRC0053,4,2026-10-04,Los Angeles Chargers,Denver Broncos,1.77,2.08,2026-08-20 12:00:00
+SRC0054,4,2026-10-04,Dallas Cowboys,Carolina Panthers,2.63,1.5,2026-08-20 12:00:00
+SRC0055,4,2026-10-04,Philadelphia Eagles,Cleveland Browns,1.66,2.26,2026-08-20 12:00:00
+SRC0056,4,2026-10-04,Tampa Bay Buccaneers,Los Angeles Rams,3.58,1.31,2026-08-20 12:00:00
+SRC0057,4,2026-10-04,Arizona Cardinals,Detroit Lions,1.14,6.01,2026-08-20 12:00:00
+SRC0058,4,2026-10-04,New England Patriots,Jacksonville Jaguars,2.46,1.57,2026-08-20 12:00:00
+SRC0059,4,2026-10-04,Cincinnati Bengals,Indianapolis Colts,5.34,1.17,2026-08-20 12:00:00
+SRC0060,4,2026-10-04,Green Bay Packers,Seattle Seahawks,2.01,1.82,2026-08-20 12:00:00
+SRC0061,4,2026-10-04,Washington Commanders,Las Vegas Raiders,1.16,5.54,2026-08-20 12:00:00
+SRC0062,4,2026-10-04,Houston Texans,San Francisco 49ers,1.63,2.32,2026-08-20 12:00:00
+SRC0063,4,2026-10-04,New York Giants,Buffalo Bills,1.71,2.17,2026-08-20 12:00:00
+SRC0064,5,2026-10-11,Cleveland Browns,Pittsburgh Steelers,2.62,1.51,2026-08-20 12:00:00
+SRC0065,5,2026-10-11,Tennessee Titans,San Francisco 49ers,1.38,3.1,2026-08-20 12:00:00
+SRC0066,5,2026-10-11,Atlanta Falcons,Los Angeles Chargers,2.73,1.47,2026-08-20 12:00:00
+SRC0067,5,2026-10-11,Minnesota Vikings,Dallas Cowboys,1.99,1.85,2026-08-20 12:00:00
+SRC0068,5,2026-10-11,Los Angeles Rams,New England Patriots,1.36,3.23,2026-08-20 12:00:00
+SRC0069,5,2026-10-11,Indianapolis Colts,Baltimore Ravens,1.85,1.98,2026-08-20 12:00:00
+SRC0070,5,2026-10-11,Washington Commanders,Philadelphia Eagles,1.36,3.22,2026-08-20 12:00:00
+SRC0071,5,2026-10-11,New York Giants,Arizona Cardinals,2.91,1.43,2026-08-20 12:00:00
+SRC0072,5,2026-10-11,Chicago Bears,Miami Dolphins,1.49,2.66,2026-08-20 12:00:00
+SRC0073,5,2026-10-11,Kansas City Chiefs,Buffalo Bills,1.47,2.74,2026-08-20 12:00:00
+SRC0074,5,2026-10-11,Denver Broncos,Tampa Bay Buccaneers,2.53,1.54,2026-08-20 12:00:00
+SRC0075,5,2026-10-11,Carolina Panthers,Houston Texans,2.15,1.72,2026-08-20 12:00:00
+SRC0076,5,2026-10-11,Cincinnati Bengals,Las Vegas Raiders,2.94,1.42,2026-08-20 12:00:00
+SRC0077,5,2026-10-11,New Orleans Saints,Seattle Seahawks,2.4,1.59,2026-08-20 12:00:00
+SRC0078,5,2026-10-11,Green Bay Packers,New York Jets,1.29,3.74,2026-08-20 12:00:00
+SRC0079,6,2026-10-18,Houston Texans,Indianapolis Colts,2.28,1.65,2026-08-20 12:00:00
+SRC0080,6,2026-10-18,Arizona Cardinals,Pittsburgh Steelers,1.34,3.38,2026-08-20 12:00:00
+SRC0081,6,2026-10-18,Cincinnati Bengals,New York Giants,3.58,1.31,2026-08-20 12:00:00
+SRC0082,6,2026-10-18,San Francisco 49ers,New York Jets,2.41,1.59,2026-08-20 12:00:00
+SRC0083,6,2026-10-18,Green Bay Packers,Jacksonville Jaguars,1.5,2.65,2026-08-20 12:00:00
+SRC0084,6,2026-10-18,Chicago Bears,Tampa Bay Buccaneers,1.58,2.42,2026-08-20 12:00:00
+SRC0085,6,2026-10-18,Las Vegas Raiders,Seattle Seahawks,4.25,1.23,2026-08-20 12:00:00
+SRC0086,6,2026-10-18,Miami Dolphins,Los Angeles Chargers,3.08,1.39,2026-08-20 12:00:00
+SRC0087,6,2026-10-18,Detroit Lions,Washington Commanders,15.16,1.02,2026-08-20 12:00:00
+SRC0088,6,2026-10-18,Baltimore Ravens,Cleveland Browns,1.91,1.91,2026-08-20 12:00:00
+SRC0089,6,2026-10-18,New England Patriots,Denver Broncos,2.22,1.68,2026-08-20 12:00:00
+SRC0090,6,2026-10-18,Kansas City Chiefs,Los Angeles Rams,2.06,1.78,2026-08-20 12:00:00
+SRC0091,6,2026-10-18,Atlanta Falcons,Minnesota Vikings,3.39,1.33,2026-08-20 12:00:00
+SRC0092,6,2026-10-18,Dallas Cowboys,Buffalo Bills,1.64,2.3,2026-08-20 12:00:00
+SRC0093,7,2026-10-25,Detroit Lions,Tennessee Titans,6.12,1.13,2026-08-20 12:00:00
+SRC0094,7,2026-10-25,Atlanta Falcons,Cincinnati Bengals,1.85,1.98,2026-08-20 12:00:00
+SRC0095,7,2026-10-25,Dallas Cowboys,Pittsburgh Steelers,1.68,2.23,2026-08-20 12:00:00
+SRC0096,7,2026-10-25,New York Jets,Baltimore Ravens,2.83,1.45,2026-08-20 12:00:00
+SRC0097,7,2026-10-25,Seattle Seahawks,San Francisco 49ers,1.44,2.87,2026-08-20 12:00:00
+SRC0098,7,2026-10-25,Arizona Cardinals,Carolina Panthers,1.99,1.85,2026-08-20 12:00:00
+SRC0099,7,2026-10-25,Houston Texans,Chicago Bears,2.96,1.42,2026-08-20 12:00:00
+SRC0100,7,2026-10-25,Denver Broncos,Jacksonville Jaguars,2.32,1.63,2026-08-20 12:00:00
+SRC0101,7,2026-10-25,Minnesota Vikings,Los Angeles Chargers,2.04,1.8,2026-08-20 12:00:00
+SRC0102,7,2026-10-25,Washington Commanders,Philadelphia Eagles,1.26,3.96,2026-08-20 12:00:00
+SRC0103,7,2026-10-25,Miami Dolphins,New Orleans Saints,3.91,1.27,2026-08-20 12:00:00
+SRC0104,7,2026-10-25,New England Patriots,Los Angeles Rams,4.99,1.18,2026-08-20 12:00:00
+SRC0105,7,2026-10-25,Cleveland Browns,Green Bay Packers,4.38,1.22,2026-08-20 12:00:00
+SRC0106,7,2026-10-25,Kansas City Chiefs,New York Giants,1.71,2.18,2026-08-20 12:00:00
+SRC0107,8,2026-11-01,San Francisco 49ers,Pittsburgh Steelers,2.2,1.69,2026-08-20 12:00:00
+SRC0108,8,2026-11-01,Washington Commanders,Dallas Cowboys,1.36,3.26,2026-08-20 12:00:00
+SRC0109,8,2026-11-01,Los Angeles Chargers,Arizona Cardinals,5.13,1.18,2026-08-20 12:00:00
+SRC0110,8,2026-11-01,Atlanta Falcons,Philadelphia Eagles,3.05,1.39,2026-08-20 12:00:00
+SRC0111,8,2026-11-01,Buffalo Bills,Cleveland Browns,1.78,2.07,2026-08-20 12:00:00
+SRC0112,8,2026-11-01,Cincinnati Bengals,Jacksonville Jaguars,3.01,1.4,2026-08-20 12:00:00
+SRC0113,8,2026-11-01,Las Vegas Raiders,Tampa Bay Buccaneers,2.38,1.6,2026-08-20 12:00:00
+SRC0114,8,2026-11-01,Detroit Lions,Kansas City Chiefs,5.85,1.14,2026-08-20 12:00:00
+SRC0115,8,2026-11-01,Carolina Panthers,Denver Broncos,1.57,2.45,2026-08-20 12:00:00
+SRC0116,8,2026-11-01,Chicago Bears,New Orleans Saints,2.26,1.66,2026-08-20 12:00:00
+SRC0117,8,2026-11-01,Seattle Seahawks,Indianapolis Colts,1.97,1.86,2026-08-20 12:00:00
+SRC0118,8,2026-11-01,New York Jets,Minnesota Vikings,3.17,1.37,2026-08-20 12:00:00
+SRC0119,8,2026-11-01,Baltimore Ravens,New England Patriots,1.94,1.89,2026-08-20 12:00:00
+SRC0120,8,2026-11-01,Green Bay Packers,Tennessee Titans,2.27,1.66,2026-08-20 12:00:00
+SRC0121,9,2026-11-08,Detroit Lions,Los Angeles Chargers,3.88,1.27,2026-08-20 12:00:00
+SRC0122,9,2026-11-08,Cincinnati Bengals,Las Vegas Raiders,2.78,1.46,2026-08-20 12:00:00
+SRC0123,9,2026-11-08,Kansas City Chiefs,Seattle Seahawks,2.14,1.73,2026-08-20 12:00:00
+SRC0124,9,2026-11-08,Washington Commanders,San Francisco 49ers,1.19,4.84,2026-08-20 12:00:00
+SRC0125,9,2026-11-08,Jacksonville Jaguars,New York Giants,2.74,1.47,2026-08-20 12:00:00
+SRC0126,9,2026-11-08,Miami Dolphins,New Orleans Saints,3.89,1.27,2026-08-20 12:00:00
+SRC0127,9,2026-11-08,Cleveland Browns,Atlanta Falcons,1.93,1.9,2026-08-20 12:00:00
+SRC0128,9,2026-11-08,Buffalo Bills,Baltimore Ravens,2.13,1.74,2026-08-20 12:00:00
+SRC0129,9,2026-11-08,Houston Texans,Tennessee Titans,2.55,1.53,2026-08-20 12:00:00
+SRC0130,9,2026-11-08,Philadelphia Eagles,Minnesota Vikings,2.26,1.66,2026-08-20 12:00:00
+SRC0131,9,2026-11-08,Tampa Bay Buccaneers,Green Bay Packers,3.62,1.3,2026-08-20 12:00:00
+SRC0132,9,2026-11-08,New England Patriots,Denver Broncos,2.23,1.67,2026-08-20 12:00:00
+SRC0133,9,2026-11-08,Los Angeles Rams,Carolina Panthers,2.03,1.81,2026-08-20 12:00:00
+SRC0134,9,2026-11-08,Indianapolis Colts,Chicago Bears,2.4,1.59,2026-08-20 12:00:00
+SRC0135,10,2026-11-15,Seattle Seahawks,New Orleans Saints,1.92,1.91,2026-08-20 12:00:00
+SRC0136,10,2026-11-15,Detroit Lions,Indianapolis Colts,4.63,1.21,2026-08-20 12:00:00
+SRC0137,10,2026-11-15,Jacksonville Jaguars,Minnesota Vikings,2.98,1.41,2026-08-20 12:00:00
+SRC0138,10,2026-11-15,Chicago Bears,Tampa Bay Buccaneers,1.58,2.44,2026-08-20 12:00:00
+SRC0139,10,2026-11-15,Washington Commanders,Denver Broncos,1.2,4.78,2026-08-20 12:00:00
+SRC0140,10,2026-11-15,Houston Texans,New York Giants,1.98,1.85,2026-08-20 12:00:00
+SRC0141,10,2026-11-15,Buffalo Bills,Philadelphia Eagles,2.68,1.49,2026-08-20 12:00:00
+SRC0142,10,2026-11-15,Baltimore Ravens,Los Angeles Chargers,1.95,1.88,2026-08-20 12:00:00
+SRC0143,10,2026-11-15,New England Patriots,Arizona Cardinals,6.37,1.13,2026-08-20 12:00:00
+SRC0144,10,2026-11-15,Miami Dolphins,San Francisco 49ers,2.25,1.66,2026-08-20 12:00:00
+SRC0145,10,2026-11-15,Dallas Cowboys,New York Jets,1.37,3.17,2026-08-20 12:00:00
+SRC0146,10,2026-11-15,Green Bay Packers,Tennessee Titans,2.83,1.45,2026-08-20 12:00:00
+SRC0147,10,2026-11-15,Pittsburgh Steelers,Las Vegas Raiders,2.02,1.82,2026-08-20 12:00:00
+SRC0148,10,2026-11-15,Los Angeles Rams,Carolina Panthers,1.86,1.97,2026-08-20 12:00:00
+SRC0149,11,2026-11-22,Houston Texans,Baltimore Ravens,1.79,2.06,2026-08-20 12:00:00
+SRC0150,11,2026-11-22,Denver Broncos,Kansas City Chiefs,4.25,1.23,2026-08-20 12:00:00
+SRC0151,11,2026-11-22,New York Giants,Jacksonville Jaguars,1.76,2.1,2026-08-20 12:00:00
+SRC0152,11,2026-11-22,Arizona Cardinals,Buffalo Bills,1.34,3.38,2026-08-20 12:00:00
+SRC0153,11,2026-11-22,San Francisco 49ers,Dallas Cowboys,2.98,1.41,2026-08-20 12:00:00
+SRC0154,11,2026-11-22,New York Jets,Green Bay Packers,5.17,1.17,2026-08-20 12:00:00
+SRC0155,11,2026-11-22,Philadelphia Eagles,New England Patriots,1.75,2.11,2026-08-20 12:00:00
+SRC0156,11,2026-11-22,Pittsburgh Steelers,Tampa Bay Buccaneers,2.3,1.64,2026-08-20 12:00:00
+SRC0157,11,2026-11-22,Los Angeles Rams,Las Vegas Raiders,1.33,3.42,2026-08-20 12:00:00
+SRC0158,11,2026-11-22,Tennessee Titans,Carolina Panthers,2.22,1.68,2026-08-20 12:00:00
+SRC0159,11,2026-11-22,New Orleans Saints,Indianapolis Colts,1.97,1.86,2026-08-20 12:00:00
+SRC0160,11,2026-11-22,Detroit Lions,Seattle Seahawks,6.43,1.12,2026-08-20 12:00:00
+SRC0161,11,2026-11-22,Cleveland Browns,Miami Dolphins,1.97,1.86,2026-08-20 12:00:00
+SRC0162,11,2026-11-22,Cincinnati Bengals,Atlanta Falcons,2.42,1.58,2026-08-20 12:00:00
+SRC0163,12,2026-11-29,New England Patriots,Los Angeles Rams,5.2,1.17,2026-08-20 12:00:00
+SRC0164,12,2026-11-29,Tampa Bay Buccaneers,San Francisco 49ers,1.93,1.89,2026-08-20 12:00:00
+SRC0165,12,2026-11-29,Green Bay Packers,Minnesota Vikings,1.75,2.11,2026-08-20 12:00:00
+SRC0166,12,2026-11-29,Detroit Lions,Buffalo Bills,3.66,1.3,2026-08-20 12:00:00
+SRC0167,12,2026-11-29,Pittsburgh Steelers,Cincinnati Bengals,1.5,2.65,2026-08-20 12:00:00
+SRC0168,12,2026-11-29,Arizona Cardinals,Cleveland Browns,1.24,4.21,2026-08-20 12:00:00
+SRC0169,12,2026-11-29,Las Vegas Raiders,Philadelphia Eagles,3.04,1.4,2026-08-20 12:00:00
+SRC0170,12,2026-11-29,Los Angeles Chargers,New York Giants,2.52,1.54,2026-08-20 12:00:00
+SRC0171,12,2026-11-29,Chicago Bears,Tennessee Titans,2.44,1.57,2026-08-20 12:00:00
+SRC0172,12,2026-11-29,New Orleans Saints,Indianapolis Colts,2.15,1.73,2026-08-20 12:00:00
+SRC0173,12,2026-11-29,Kansas City Chiefs,Atlanta Falcons,1.3,3.6,2026-08-20 12:00:00
+SRC0174,12,2026-11-29,Denver Broncos,Jacksonville Jaguars,2.19,1.7,2026-08-20 12:00:00
+SRC0175,12,2026-11-29,Dallas Cowboys,New York Jets,1.55,2.49,2026-08-20 12:00:00
+SRC0176,12,2026-11-29,Washington Commanders,Miami Dolphins,1.15,5.78,2026-08-20 12:00:00
+SRC0177,12,2026-11-29,Houston Texans,Carolina Panthers,2.61,1.51,2026-08-20 12:00:00
+SRC0178,13,2026-12-06,New Orleans Saints,Tennessee Titans,3.29,1.35,2026-08-20 12:00:00
+SRC0179,13,2026-12-06,Baltimore Ravens,Seattle Seahawks,3.59,1.3,2026-08-20 12:00:00
+SRC0180,13,2026-12-06,New York Giants,Tampa Bay Buccaneers,1.76,2.1,2026-08-20 12:00:00
+SRC0181,13,2026-12-06,Detroit Lions,New York Jets,2.68,1.49,2026-08-20 12:00:00
+SRC0182,13,2026-12-06,Indianapolis Colts,Miami Dolphins,1.45,2.81,2026-08-20 12:00:00
+SRC0183,13,2026-12-06,Las Vegas Raiders,Arizona Cardinals,5.56,1.16,2026-08-20 12:00:00
+SRC0184,13,2026-12-06,Chicago Bears,Kansas City Chiefs,2.04,1.81,2026-08-20 12:00:00
+SRC0185,13,2026-12-06,Dallas Cowboys,Los Angeles Rams,2.81,1.45,2026-08-20 12:00:00
+SRC0186,13,2026-12-06,Cleveland Browns,Washington Commanders,8.7,1.08,2026-08-20 12:00:00
+SRC0187,13,2026-12-06,Minnesota Vikings,Atlanta Falcons,1.62,2.33,2026-08-20 12:00:00
+SRC0188,13,2026-12-06,Green Bay Packers,Denver Broncos,1.38,3.12,2026-08-20 12:00:00
+SRC0189,13,2026-12-06,Buffalo Bills,Houston Texans,2.77,1.46,2026-08-20 12:00:00
+SRC0190,13,2026-12-06,Cincinnati Bengals,Los Angeles Chargers,3.23,1.36,2026-08-20 12:00:00
+SRC0191,13,2026-12-06,Pittsburgh Steelers,Jacksonville Jaguars,2.35,1.62,2026-08-20 12:00:00
+SRC0192,13,2026-12-06,Carolina Panthers,Philadelphia Eagles,1.81,2.03,2026-08-20 12:00:00
+SRC0193,14,2026-12-13,Jacksonville Jaguars,Buffalo Bills,2.76,1.47,2026-08-20 12:00:00
+SRC0194,14,2026-12-13,Minnesota Vikings,Detroit Lions,1.44,2.87,2026-08-20 12:00:00
+SRC0195,14,2026-12-13,New England Patriots,Las Vegas Raiders,2.25,1.66,2026-08-20 12:00:00
+SRC0196,14,2026-12-13,Philadelphia Eagles,Miami Dolphins,1.64,2.3,2026-08-20 12:00:00
+SRC0197,14,2026-12-13,Dallas Cowboys,Seattle Seahawks,2.85,1.44,2026-08-20 12:00:00
+SRC0198,14,2026-12-13,Indianapolis Colts,New York Giants,2.44,1.58,2026-08-20 12:00:00
+SRC0199,14,2026-12-13,Tampa Bay Buccaneers,Los Angeles Rams,3.62,1.3,2026-08-20 12:00:00
+SRC0200,14,2026-12-13,Carolina Panthers,Tennessee Titans,2.78,1.46,2026-08-20 12:00:00
+SRC0201,14,2026-12-13,Atlanta Falcons,Kansas City Chiefs,5.95,1.14,2026-08-20 12:00:00
+SRC0202,14,2026-12-13,Houston Texans,San Francisco 49ers,1.61,2.35,2026-08-20 12:00:00
+SRC0203,14,2026-12-13,New York Jets,Arizona Cardinals,6.62,1.12,2026-08-20 12:00:00
+SRC0204,14,2026-12-13,New Orleans Saints,Los Angeles Chargers,1.78,2.06,2026-08-20 12:00:00
+SRC0205,14,2026-12-13,Washington Commanders,Baltimore Ravens,1.22,4.42,2026-08-20 12:00:00
+SRC0206,14,2026-12-13,Chicago Bears,Cleveland Browns,1.36,3.26,2026-08-20 12:00:00
+SRC0207,14,2026-12-13,Pittsburgh Steelers,Cincinnati Bengals,1.51,2.62,2026-08-20 12:00:00
+SRC0208,15,2026-12-20,New England Patriots,Cincinnati Bengals,1.65,2.27,2026-08-20 12:00:00
+SRC0209,15,2026-12-20,Buffalo Bills,Los Angeles Rams,3.43,1.33,2026-08-20 12:00:00
+SRC0210,15,2026-12-20,Miami Dolphins,Denver Broncos,2.31,1.63,2026-08-20 12:00:00
+SRC0211,15,2026-12-20,Jacksonville Jaguars,Kansas City Chiefs,4.04,1.25,2026-08-20 12:00:00
+SRC0212,15,2026-12-20,Los Angeles Chargers,New York Giants,2.71,1.48,2026-08-20 12:00:00
+SRC0213,15,2026-12-20,Pittsburgh Steelers,Atlanta Falcons,1.67,2.24,2026-08-20 12:00:00
+SRC0214,15,2026-12-20,Philadelphia Eagles,Dallas Cowboys,2.79,1.46,2026-08-20 12:00:00
+SRC0215,15,2026-12-20,San Francisco 49ers,Detroit Lions,1.79,2.06,2026-08-20 12:00:00
+SRC0216,15,2026-12-20,Las Vegas Raiders,Washington Commanders,9.85,1.06,2026-08-20 12:00:00
+SRC0217,15,2026-12-20,Indianapolis Colts,Chicago Bears,2.59,1.52,2026-08-20 12:00:00
+SRC0218,15,2026-12-20,Houston Texans,Tampa Bay Buccaneers,1.65,2.28,2026-08-20 12:00:00
+SRC0219,15,2026-12-20,Green Bay Packers,Tennessee Titans,2.41,1.59,2026-08-20 12:00:00
+SRC0220,15,2026-12-20,Carolina Panthers,Arizona Cardinals,2.9,1.43,2026-08-20 12:00:00
+SRC0221,15,2026-12-20,New York Jets,New Orleans Saints,3.56,1.31,2026-08-20 12:00:00
+SRC0222,15,2026-12-20,Minnesota Vikings,Seattle Seahawks,3.02,1.4,2026-08-20 12:00:00
+SRC0223,15,2026-12-20,Baltimore Ravens,Cleveland Browns,2.09,1.76,2026-08-20 12:00:00
+SRC0224,16,2026-12-27,Chicago Bears,Baltimore Ravens,1.42,2.92,2026-08-20 12:00:00
+SRC0225,16,2026-12-27,Las Vegas Raiders,Tennessee Titans,5.92,1.14,2026-08-20 12:00:00
+SRC0226,16,2026-12-27,Philadelphia Eagles,Green Bay Packers,3.25,1.36,2026-08-20 12:00:00
+SRC0227,16,2026-12-27,Arizona Cardinals,Pittsburgh Steelers,1.36,3.21,2026-08-20 12:00:00
+SRC0228,16,2026-12-27,Detroit Lions,Los Angeles Chargers,4.1,1.25,2026-08-20 12:00:00
+SRC0229,16,2026-12-27,Washington Commanders,Atlanta Falcons,1.11,6.86,2026-08-20 12:00:00
+SRC0230,16,2026-12-27,Dallas Cowboys,New York Giants,2.15,1.72,2026-08-20 12:00:00
+SRC0231,16,2026-12-27,Cleveland Browns,Jacksonville Jaguars,2.87,1.43,2026-08-20 12:00:00
+SRC0232,16,2026-12-27,Miami Dolphins,New England Patriots,2.27,1.65,2026-08-20 12:00:00
+SRC0233,16,2026-12-27,Minnesota Vikings,Los Angeles Rams,2.95,1.42,2026-08-20 12:00:00
+SRC0234,16,2026-12-27,Indianapolis Colts,Houston Texans,2.2,1.69,2026-08-20 12:00:00
+SRC0235,16,2026-12-27,New York Jets,Carolina Panthers,4.2,1.24,2026-08-20 12:00:00
+SRC0236,16,2026-12-27,San Francisco 49ers,Kansas City Chiefs,4.99,1.18,2026-08-20 12:00:00
+SRC0237,16,2026-12-27,New Orleans Saints,Cincinnati Bengals,1.25,4.05,2026-08-20 12:00:00
+SRC0238,16,2026-12-27,Denver Broncos,Seattle Seahawks,4.48,1.22,2026-08-20 12:00:00
+SRC0239,16,2026-12-27,Buffalo Bills,Tampa Bay Buccaneers,1.87,1.96,2026-08-20 12:00:00
+SRC0240,17,2027-01-03,San Francisco 49ers,New York Giants,3.24,1.36,2026-08-20 12:00:00
+SRC0241,17,2027-01-03,Cleveland Browns,Jacksonville Jaguars,2.54,1.54,2026-08-20 12:00:00
+SRC0242,17,2027-01-03,Denver Broncos,Chicago Bears,3.44,1.33,2026-08-20 12:00:00
+SRC0243,17,2027-01-03,Philadelphia Eagles,Las Vegas Raiders,1.64,2.3,2026-08-20 12:00:00
+SRC0244,17,2027-01-03,New York Jets,Buffalo Bills,2.62,1.51,2026-08-20 12:00:00
+SRC0245,17,2027-01-03,Kansas City Chiefs,Tampa Bay Buccaneers,1.44,2.86,2026-08-20 12:00:00
+SRC0246,17,2027-01-03,Dallas Cowboys,Arizona Cardinals,3.89,1.27,2026-08-20 12:00:00
+SRC0247,17,2027-01-03,Cincinnati Bengals,Houston Texans,4.52,1.21,2026-08-20 12:00:00
+SRC0248,17,2027-01-03,Green Bay Packers,Carolina Panthers,1.88,1.94,2026-08-20 12:00:00
+SRC0249,17,2027-01-03,Seattle Seahawks,New Orleans Saints,2.23,1.68,2026-08-20 12:00:00
+SRC0250,17,2027-01-03,New England Patriots,Pittsburgh Steelers,2.5,1.55,2026-08-20 12:00:00
+SRC0251,17,2027-01-03,Atlanta Falcons,Miami Dolphins,2.55,1.53,2026-08-20 12:00:00
+SRC0252,17,2027-01-03,Washington Commanders,Indianapolis Colts,1.41,3.0,2026-08-20 12:00:00
+SRC0253,17,2027-01-03,Minnesota Vikings,Los Angeles Chargers,1.8,2.04,2026-08-20 12:00:00
+SRC0254,17,2027-01-03,Tennessee Titans,Los Angeles Rams,2.09,1.76,2026-08-20 12:00:00
+SRC0255,17,2027-01-03,Detroit Lions,Baltimore Ravens,4.15,1.24,2026-08-20 12:00:00
+SRC0256,18,2027-01-10,Philadelphia Eagles,Atlanta Falcons,1.7,2.2,2026-08-20 12:00:00
+SRC0257,18,2027-01-10,Denver Broncos,Tampa Bay Buccaneers,2.36,1.61,2026-08-20 12:00:00
+SRC0258,18,2027-01-10,Pittsburgh Steelers,Indianapolis Colts,3.01,1.4,2026-08-20 12:00:00
+SRC0259,18,2027-01-10,Chicago Bears,New York Giants,1.71,2.17,2026-08-20 12:00:00
+SRC0260,18,2027-01-10,Los Angeles Rams,Kansas City Chiefs,2.06,1.79,2026-08-20 12:00:00
+SRC0261,18,2027-01-10,New York Jets,New England Patriots,2.74,1.47,2026-08-20 12:00:00
+SRC0262,18,2027-01-10,Cleveland Browns,Carolina Panthers,4.37,1.23,2026-08-20 12:00:00
+SRC0263,18,2027-01-10,Baltimore Ravens,Las Vegas Raiders,1.65,2.28,2026-08-20 12:00:00
+SRC0264,18,2027-01-10,Miami Dolphins,Los Angeles Chargers,2.63,1.5,2026-08-20 12:00:00
+SRC0265,18,2027-01-10,Seattle Seahawks,Washington Commanders,3.93,1.27,2026-08-20 12:00:00
+SRC0266,18,2027-01-10,Arizona Cardinals,Green Bay Packers,1.98,1.85,2026-08-20 12:00:00
+SRC0267,18,2027-01-10,Jacksonville Jaguars,Dallas Cowboys,2.92,1.42,2026-08-20 12:00:00
+SRC0268,18,2027-01-10,Tennessee Titans,San Francisco 49ers,1.33,3.4,2026-08-20 12:00:00
+SRC0269,18,2027-01-10,Buffalo Bills,Minnesota Vikings,2.53,1.54,2026-08-20 12:00:00
+SRC0270,18,2027-01-10,New Orleans Saints,Cincinnati Bengals,1.23,4.36,2026-08-20 12:00:00
+SRC0271,18,2027-01-10,Houston Texans,Detroit Lions,1.27,3.89,2026-08-20 12:00:00

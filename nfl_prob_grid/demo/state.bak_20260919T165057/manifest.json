@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "versions": [
+    {
+      "version": 1,
+      "file": "master_v0001.csv",
+      "run_type": "init",
+      "sha256": "2050d1c3a683d3add3732e370d7adf9bb710f65f001fde04e3518fa318863caa",
+      "parent_sha256": "",
+      "sb_history_sha256": "cafc87f50c97b79bb61836b435b45369639296b208ba5b63c4c6e4a3d698f098",
+      "as_of": "2026-08-25T00:00:00Z",
+      "current_week": 1,
+      "n_games": 272,
+      "created_utc": "2026-09-19T16:50:50Z"
+    }
+  ],
+  "current_version": 1,
+  "current_week": 1
+}

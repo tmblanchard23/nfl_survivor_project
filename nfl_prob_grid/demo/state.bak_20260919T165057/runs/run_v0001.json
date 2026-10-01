@@ -1,0 +1,14 @@
+{
+  "run_type": "init",
+  "version": 1,
+  "as_of": "2026-08-25T00:00:00Z",
+  "current_week": 1,
+  "counts": {
+    "rows_in": 272,
+    "games": 272,
+    "frozen_games": 0,
+    "superbowl_baseline_snapshot": 0
+  },
+  "issues": [],
+  "rejected_rows": []
+}

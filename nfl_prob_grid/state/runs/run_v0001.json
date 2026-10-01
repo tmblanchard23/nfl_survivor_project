@@ -1,0 +1,63 @@
+{
+  "run_type": "init",
+  "version": 1,
+  "as_of": "2026-09-08T15:27:00Z",
+  "current_week": 1,
+  "counts": {
+    "rows_in": 272,
+    "games": 272,
+    "frozen_games": 0
+  },
+  "details": {
+    "baseline": {
+      "hfa_logit": 0.2203,
+      "hfa_mode": "estimate",
+      "neutral_games": 0,
+      "win_total_sum": 272.58,
+      "games": 272,
+      "vig_removed_wins_per_team": 0.018,
+      "rms_gap_win_totals_vs_preseason_lines_logit": 0.1007,
+      "rms_gap_win_totals_vs_preseason_lines_wins": 0.335,
+      "reconciled": true,
+      "win_total_weight_in_baseline": 0.492,
+      "rms_baseline_shift_from_win_totals_logit": 0.0515,
+      "largest_win_total_vs_lines_gaps_wins": [
+        {
+          "team": "MIA",
+          "gap_wins": 0.83
+        },
+        {
+          "team": "LAR",
+          "gap_wins": -0.72
+        },
+        {
+          "team": "CLE",
+          "gap_wins": 0.69
+        },
+        {
+          "team": "BAL",
+          "gap_wins": -0.56
+        },
+        {
+          "team": "ARI",
+          "gap_wins": 0.51
+        }
+      ]
+    },
+    "bridge": {
+      "archive_tab": "Grid 2026 W01 v001",
+      "rows_in_tab": 272,
+      "set_aside": 0,
+      "lines_tab": "Preserved Week 1 Full Season Lines"
+    }
+  },
+  "issues": [
+    {
+      "level": "info",
+      "code": "win_total_price_adjustment",
+      "message": "over/under prices applied to 32/32 teams",
+      "game_id": ""
+    }
+  ],
+  "rejected_rows": []
+}

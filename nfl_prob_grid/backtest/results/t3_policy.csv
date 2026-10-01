@@ -1,0 +1,6 @@
+policy,"params (start,half,max,thr,cap)",train_cut,holdout_cut,all_seasons_90ci
+"previous defaults (start 3, half 3, max .8, thr .12, cap .4)","(3, 3.0, 0.8, 0.12, 0.4)",0.06822420149367181,0.0659879505458536,6.2%..7.3%
+"SHIPPED defaults (start 3, half .5, max 1, thr .02, cap 1)","(3, 0.5, 1.0, 0.02, 1.0)",0.12619769779951207,0.11660095879258969,10.8%..13.8%
+best on train,"(1, 0.25, 1.0, 0.0, 1.5)",0.13271981212096973,0.12082282879616235,10.9%..14.8%
+"full pass-through (w=1 always, no gate, no cap)","(0, 1e-09, 1.0, 0.0, 50.0)",0.13132728610560696,0.11798451196869075,10.4%..14.9%
+recommended (simplest within 0.1% of best),"(2, 0.5, 1.0, 0.0, 1.5)",0.13233831027166632,0.12094479950929116,11.0%..14.7%

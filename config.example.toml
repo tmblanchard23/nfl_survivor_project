@@ -1,0 +1,31 @@
+
+# NFL Survivor DP Optimizer -- settings template
+#
+# Copy this file to config.toml, then edit the two lines marked EDIT ME.
+# config.toml is gitignored -- it holds your real sheet URL -- so this
+# example file is what gets committed instead.
+#
+# Then run:   python3 -m survivor check
+ 
+[sheet]
+# EDIT ME: paste the full URL of your Google Sheet (the same one the
+# probability-grid engine writes "Master Game Table" into).
+spreadsheet = "PASTE_YOUR_SHEET_URL_HERE"
+ 
+# EDIT ME (maybe): where your existing service_account.json lives -- the one
+# you already made for the grid engine. No new Google setup is needed; that
+# service account already has access to the sheet.
+# Relative paths are measured from THIS file's folder, so if this folder
+# (survivor_dp) sits right next to your nfl_prob_grid folder, this works as-is.
+credentials = "../nfl_prob_grid/service_account.json"
+ 
+# Tab names. Only change these if you rename the tabs.
+master_game_table_tab = "Master Game Table"
+pools_picks_tab = "Pools Picks"
+ 
+[pool]
+# The row label in Pools Picks that holds YOUR picks.
+my_player_label = "Me"
+ 
+# How many options to show in each ranking.
+top_n = 5

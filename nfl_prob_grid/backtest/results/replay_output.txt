@@ -1,0 +1,5 @@
+L4 FULL-ENGINE REPLAY 2021-2025: 5 seasons x 18 engine versions x 2 configs, all runs validated, 0 rejected rows
+             config  predictions  stale_rmse  engine_rmse error_cut share_adjusted                                                             per_season_cut
+  previous_defaults        10255       0.729       0.6750      7.4%            68%     {2021: '6.3%', 2022: '8.3%', 2023: '8.9%', 2024: '7.9%', 2025: '5.9%'}
+backtested_defaults        10255       0.729       0.6283     13.8%            77% {2021: '10.8%', 2022: '16.6%', 2023: '17.5%', 2024: '15.3%', 2025: '9.7%'}
+built-in live skill check (backtested defaults): 950 adjusted games later got fresh lines; mean error 0.511 (unadjusted) -> 0.325 (adjusted)

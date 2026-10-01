@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "versions": [
+    {
+      "version": 1,
+      "file": "master_v0001.csv",
+      "run_type": "init",
+      "sha256": "b0d8970c46e3efde55748737d1090fd6d35a7e037c06286f459d56d0ef5032f7",
+      "parent_sha256": "",
+      "ratings_sha256": "b1fcfea821a984bd084dc0029a2a2a3923eed0f9f4039031fe6f43f2631ec2d6",
+      "rating_state_sha256": "278ed8421c376e68b1d67aaf812d7f2a61c47c06a16c8d571042d4f0d52f7028",
+      "as_of": "2026-09-08T15:27:00Z",
+      "current_week": 1,
+      "n_games": 272,
+      "created_utc": "2026-09-26T03:43:56Z"
+    },
+    {
+      "version": 2,
+      "file": "master_v0002.csv",
+      "run_type": "refresh",
+      "sha256": "f1abdce6e42c79cf179f9c740daa11893a2aaba51d4cf1c73b57c3b2970846db",
+      "parent_sha256": "b0d8970c46e3efde55748737d1090fd6d35a7e037c06286f459d56d0ef5032f7",
+      "ratings_sha256": "a03eda8d431cd663d79836d3d23512314e06edb547094f57f99552bf07e86dd5",
+      "rating_state_sha256": "75a935504ae6612675c0ee3d98949162a13a0a469a1fbcb6f8bf9da2e26304bc",
+      "as_of": "2026-09-17T20:25:00Z",
+      "current_week": 2,
+      "n_games": 272,
+      "created_utc": "2026-09-26T03:43:58Z"
+    },
+    {
+      "version": 3,
+      "file": "master_v0003.csv",
+      "run_type": "refresh",
+      "sha256": "06eda8e2d203e0d72106fbd5edb41723353de60a65db5644044ebad5a1c68b1f",
+      "parent_sha256": "f1abdce6e42c79cf179f9c740daa11893a2aaba51d4cf1c73b57c3b2970846db",
+      "ratings_sha256": "a3042432e580989532e81d0796cd0e47f4793f20acb350a914c16cad0f6c87be",
+      "rating_state_sha256": "55cae86dc2ce63490994125cb786a902a92ac452834bceae4fd6df542e971197",
+      "as_of": "2026-09-26T03:43:58Z",
+      "current_week": 3,
+      "n_games": 272,
+      "created_utc": "2026-09-26T03:43:59Z"
+    }
+  ],
+  "current_version": 3,
+  "current_week": 3
+}

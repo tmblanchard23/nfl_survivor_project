@@ -1,0 +1,36 @@
+real games: 4191  seasons 2010-2026  | regression HFA by season (logit): 2010:0.35, 2015:0.32, 2019:0.25, 2020:0.15, 2021:0.24, 2024:0.21, 2025:0.22
+anchor: carryover | seasons evaluated: 2012-2025 (14)
+
+[0] ANCHOR ACCURACY: RMSE (logit) of the preseason anchor against the REAL Week-1 / Weeks-1-2 closing lines
+    carryover   week 1: 0.4520   weeks 1-2: 0.4681   (447 games)
+
+[1] Calibrate filter dynamics on REAL one-step-ahead closing-line prediction (RMSE, logit units)
+    q=0.09/wk  line_sd=0.14  prior_sd=0.20  carry_rho=0.75  -> RMSE 0.4190
+    q=0.13/wk  line_sd=0.18  prior_sd=0.20  carry_rho=0.75  -> RMSE 0.4191
+    q=0.18/wk  line_sd=0.23  prior_sd=0.30  carry_rho=0.75  -> RMSE 0.4193
+    q=0.13/wk  line_sd=0.23  prior_sd=0.30  carry_rho=0.75  -> RMSE 0.4193
+    q=0.13/wk  line_sd=0.18  prior_sd=0.30  carry_rho=0.75  -> RMSE 0.4194
+    (worst grid point RMSE 0.4354; package defaults are q=0.08/wk, line_sd=0.15)
+    walk-forward (params chosen on prior seasons only, later half of the seasons) mean RMSE 0.4414
+
+[2] Multi-horizon: does updating beat the stale preseason anchor? (games >=2 weeks past the refreshed slate)
+origin  games  age_wk  RMSE_stale  RMSE_full_passthrough  RMSE_system_defaults  best_passthrough_beta
+  k2-3   5769     4.2      0.7252                 0.6453                0.7012                 0.8722
+  k4-6   7122     6.6      0.7527                 0.6250                0.6911                 0.8993
+ k7-10   6740    10.1      0.7864                 0.5970                0.6848                 0.9158
+k11-14   3422    13.9      0.8333                 0.5836                0.6914                 0.9006
+    overall RMSE stale 0.7684 | system defaults 0.6919 (10.0% better; 90% CI over seasons 9.1%..10.8%) | full pass-through 0.6162 (19.8%; 16.9%..22.7%)
+
+[2b] Policy variants (same filter, same data): how much of the available gain does each keep?
+    package defaults (start 3wk, max .8, thr .12, cap .4)   error cut 10.0%  (90% CI 9.1%..10.8%);  at age~4wk:  3.3%
+    no dead-zone in age (start 0, half .5wk, max .9)        error cut 13.0%  (90% CI 11.7%..14.3%);  at age~4wk:  7.8%
+      + small gate (thr .03) and cap .8                     error cut 18.0%  (90% CI 15.8%..19.9%);  at age~4wk: 10.4%
+    constant .9 pass-through, no gate, cap 1.5              error cut 19.9%  (90% CI 17.2%..22.4%);  at age~4wk: 11.2%
+
+[3] Gate check: is the signal in SMALL movements too?  (slope of realised change on estimated change)
+|game movement| (logit)  games  slope
+                  <0.10   3841  0.693
+              0.10-0.20   3646  0.922
+              0.20-0.35   4672  0.924
+              0.35-0.60   5580  0.960
+                  >0.60   5314  0.883

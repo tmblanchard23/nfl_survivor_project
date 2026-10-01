@@ -1,0 +1,34 @@
+REAL DATA: 3662 games with closing moneylines, seasons 2012-2025 | train 2012-2022, holdout 2023-2025
+walk-forward home field (logit): 2012:0.36, 2016:0.34, 2020:0.29, 2021:0.29, 2023:0.24, 2025:0.22
+
+[T1] ANCHOR ACCURACY vs real closing lines (RMSE, logit)
+                 anchor  week1_rmse  weeks1_2_rmse  train_w1_2  holdout_w1_2
+win_totals_proportional      0.2582         0.2997      0.3101        0.2583
+        win_totals_x0.9      0.2595         0.2999      0.3143        0.2396
+             win_totals      0.2580         0.3001      0.3100        0.2607
+             blend_75wt      0.2696         0.3044      0.3202        0.2382
+        win_totals_x0.8      0.2759         0.3139      0.3320        0.2359
+        win_totals_x1.1      0.2717         0.3145      0.3195        0.2954
+             blend_50wt      0.3126         0.3392      0.3567        0.2659
+        win_totals_x1.2      0.2985         0.3414      0.3419        0.3397
+             blend_25wt      0.3763         0.3965      0.4125        0.3316
+              carryover      0.4520         0.4681      0.4810        0.4177
+  win totals beat carryover in 14/14 seasons; RMSE advantage 90% CI 0.134..0.201
+
+[T2] FILTER DYNAMICS: one-step-ahead RMSE (logit), params = (q per week, line_sd, prior_sd)
+  win-total anchor  best on train (0.09, 0.14, 0.1): train 0.3984 | holdout 0.4149 (weeks 1-4 0.3034, weeks 5-18 0.4436)
+  carryover anchor  best on train (0.09, 0.14, 0.2): train 0.4165 | holdout 0.4281 (weeks 1-4 0.3700, weeks 5-18 0.4445)
+  top-5 (win-total anchor, train): [((0.09, 0.14, 0.1), 0.3984), ((0.13, 0.23, 0.15), 0.3985), ((0.13, 0.23, 0.2), 0.3986), ((0.13, 0.18, 0.15), 0.3988), ((0.13, 0.18, 0.1), 0.3989)]
+  prior_sd curve (train all weeks, holdout weeks 1-4): {0.1: (0.3984, 0.3034), 0.15: (0.3989, 0.3035), 0.2: (0.3999, 0.3058), 0.3: (0.402, 0.3117), 0.45: (0.4045, 0.3192)}
+  near-default cell: train 0.3989 | holdout 0.4152
+  expanding walk-forward: [{'season': 2016, 'params': (0.13, 0.23, 0.1), 'rmse': 0.3665}, {'season': 2017, 'params': (0.13, 0.23, 0.1), 'rmse': 0.4383}, {'season': 2018, 'params': (0.09, 0.14, 0.1), 'rmse': 0.3801}, {'season': 2019, 'params': (0.13, 0.18, 0.1), 'rmse': 0.4465}, {'season': 2020, 'params': (0.13, 0.18, 0.1), 'rmse': 0.5166}, {'season': 2021, 'params': (0.13, 0.23, 0.15), 'rmse': 0.3969}, {'season': 2022, 'params': (0.13, 0.23, 0.15), 'rmse': 0.3641}, {'season': 2023, 'params': (0.09, 0.14, 0.1), 'rmse': 0.3794}, {'season': 2024, 'params': (0.09, 0.14, 0.1), 'rmse': 0.4048}, {'season': 2025, 'params': (0.09, 0.14, 0.1), 'rmse': 0.4568}]
+
+[T3] ADJUSTMENT POLICY: predicting closing lines >= 2 weeks past the information (train 20451 / holdout 6120 game-predictions); stale RMSE train 0.7000, holdout 0.7413
+                                                      policy params (start,half,max,thr,cap) train_cut holdout_cut all_seasons_90ci
+previous defaults (start 3, half 3, max .8, thr .12, cap .4)        (3, 3.0, 0.8, 0.12, 0.4)      6.8%        6.6%       6.2%..7.3%
+  SHIPPED defaults (start 3, half .5, max 1, thr .02, cap 1)        (3, 0.5, 1.0, 0.02, 1.0)     12.6%       11.7%     10.8%..13.8%
+                                               best on train        (1, 0.25, 1.0, 0.0, 1.5)     13.3%       12.1%     10.9%..14.8%
+             full pass-through (w=1 always, no gate, no cap)      (0, 1e-09, 1.0, 0.0, 50.0)     13.1%       11.8%     10.4%..14.9%
+                  recommended (simplest within 0.1% of best)         (2, 0.5, 1.0, 0.0, 1.5)     13.2%       12.1%     11.0%..14.7%
+  unconstrained pass-through slope by line age (weeks), train: {Interval(2, 4, closed='right'): 0.807, Interval(4, 6, closed='right'): 0.924, Interval(6, 8, closed='right'): 0.894, Interval(8, 11, closed='right'): 0.909, Interval(11, 17, closed='right'): 0.914}
+  slope by |movement| size (logit), train: {Interval(0.0, 0.05, closed='right'): 0.963, Interval(0.05, 0.1, closed='right'): 0.965, Interval(0.1, 0.2, closed='right'): 0.938, Interval(0.2, 0.4, closed='right'): 0.939, Interval(0.4, 5.0, closed='right'): 0.9}

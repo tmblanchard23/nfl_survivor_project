@@ -1,0 +1,6 @@
+pandas>=2.0        # developed and tested on pandas 3.0.2 / Python 3.12 (needs tomllib: Python >= 3.11)
+numpy>=1.24
+openpyxl>=3.1      # only if you read .xlsx inputs
+pytest>=7          # only to run the tests
+gspread>=6.0       # Google Sheets bridge (sheets commands)
+google-auth>=2.0

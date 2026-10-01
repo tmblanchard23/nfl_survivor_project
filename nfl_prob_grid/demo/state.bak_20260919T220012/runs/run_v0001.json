@@ -1,0 +1,57 @@
+{
+  "run_type": "init",
+  "version": 1,
+  "as_of": "2026-08-25T00:00:00Z",
+  "current_week": 1,
+  "counts": {
+    "rows_in": 272,
+    "games": 272,
+    "frozen_games": 0
+  },
+  "details": {
+    "baseline": {
+      "hfa_logit": 0.2682,
+      "hfa_mode": "estimate",
+      "neutral_games": 0,
+      "win_total_sum": 271.62,
+      "games": 272,
+      "vig_removed_wins_per_team": -0.012,
+      "rms_gap_win_totals_vs_preseason_lines_logit": 0.0922,
+      "rms_gap_win_totals_vs_preseason_lines_wins": 0.329,
+      "reconciled": true,
+      "win_total_weight_in_baseline": 0.313,
+      "rms_baseline_shift_from_win_totals_logit": 0.0635,
+      "largest_win_total_vs_lines_gaps_wins": [
+        {
+          "team": "LV",
+          "gap_wins": 0.77
+        },
+        {
+          "team": "BUF",
+          "gap_wins": -0.74
+        },
+        {
+          "team": "CIN",
+          "gap_wins": -0.72
+        },
+        {
+          "team": "JAX",
+          "gap_wins": 0.63
+        },
+        {
+          "team": "PIT",
+          "gap_wins": -0.51
+        }
+      ]
+    }
+  },
+  "issues": [
+    {
+      "level": "info",
+      "code": "win_total_price_adjustment",
+      "message": "over/under prices applied to 32/32 teams",
+      "game_id": ""
+    }
+  ],
+  "rejected_rows": []
+}

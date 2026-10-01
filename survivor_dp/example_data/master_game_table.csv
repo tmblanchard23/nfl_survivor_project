@@ -1,0 +1,35 @@
+Week,Date,Away Team,Home Team,Away Win %,Home Win %,Source,Completed,Game ID
+1,2026-09-09,New England Patriots,Seattle Seahawks,39.7%,60.3%,Preseason line,Yes,2026-W01-NE@SEA
+1,2026-09-10,San Francisco 49ers,Los Angeles Rams,36.9%,63.1%,Preseason line,Yes,2026-W01-SF@LAR
+1,2026-09-13,Arizona Cardinals,Los Angeles Chargers,20.0%,80.0%,Preseason line,Yes,2026-W01-ARI@LAC
+1,2026-09-13,Atlanta Falcons,Pittsburgh Steelers,39.1%,60.9%,Preseason line,Yes,2026-W01-ATL@PIT
+1,2026-09-13,Baltimore Ravens,Indianapolis Colts,60.9%,39.1%,Preseason line,Yes,2026-W01-BAL@IND
+1,2026-09-13,Buffalo Bills,Houston Texans,51.0%,49.0%,Preseason line,Yes,2026-W01-BUF@HOU
+1,2026-09-13,Chicago Bears,Carolina Panthers,58.2%,41.8%,Preseason line,Yes,2026-W01-CHI@CAR
+1,2026-09-13,Cleveland Browns,Jacksonville Jaguars,22.4%,77.6%,Preseason line,Yes,2026-W01-CLE@JAX
+1,2026-09-13,Dallas Cowboys,New York Giants,59.3%,40.7%,Preseason line,Yes,2026-W01-DAL@NYG
+1,2026-09-13,Green Bay Packers,Minnesota Vikings,46.8%,53.2%,Preseason line,Yes,2026-W01-GB@MIN
+1,2026-09-13,Miami Dolphins,Las Vegas Raiders,37.7%,62.3%,Preseason line,Yes,2026-W01-MIA@LV
+1,2026-09-13,New Orleans Saints,Detroit Lions,27.8%,72.2%,Preseason line,Yes,2026-W01-NO@DET
+1,2026-09-13,New York Jets,Tennessee Titans,46.8%,53.2%,Preseason line,Yes,2026-W01-NYJ@TEN
+1,2026-09-13,Tampa Bay Buccaneers,Cincinnati Bengals,36.4%,63.6%,Preseason line,Yes,2026-W01-TB@CIN
+1,2026-09-13,Washington Commanders,Philadelphia Eagles,34.3%,65.7%,Preseason line,Yes,2026-W01-WAS@PHI
+1,2026-09-14,Denver Broncos,Kansas City Chiefs,42.9%,57.1%,Preseason line,Yes,2026-W01-DEN@KC
+2,2026-09-17,Detroit Lions,Buffalo Bills,31.5%,68.5%,Fresh line,Yes,2026-W02-DET@BUF
+2,2026-09-20,Carolina Panthers,Atlanta Falcons,58.2%,41.8%,Fresh line,Yes,2026-W02-CAR@ATL
+2,2026-09-20,Cincinnati Bengals,Houston Texans,43.6%,56.4%,Fresh line,Yes,2026-W02-CIN@HOU
+2,2026-09-20,Cleveland Browns,Tampa Bay Buccaneers,21.3%,78.7%,Fresh line,Yes,2026-W02-CLE@TB
+2,2026-09-20,Green Bay Packers,New York Jets,63.1%,36.9%,Fresh line,Yes,2026-W02-GB@NYJ
+2,2026-09-20,Indianapolis Colts,Kansas City Chiefs,28.6%,71.4%,Fresh line,Yes,2026-W02-IND@KC
+2,2026-09-20,Jacksonville Jaguars,Denver Broncos,42.9%,57.1%,Fresh line,Yes,2026-W02-JAX@DEN
+2,2026-09-20,Las Vegas Raiders,Los Angeles Chargers,27.8%,72.2%,Fresh line,Yes,2026-W02-LV@LAC
+2,2026-09-20,Miami Dolphins,San Francisco 49ers,13.7%,86.3%,Fresh line,Yes,2026-W02-MIA@SF
+2,2026-09-20,Minnesota Vikings,Chicago Bears,36.4%,63.6%,Fresh line,Yes,2026-W02-MIN@CHI
+2,2026-09-20,New Orleans Saints,Baltimore Ravens,24.0%,76.0%,Fresh line,Yes,2026-W02-NO@BAL
+2,2026-09-20,Philadelphia Eagles,Tennessee Titans,72.6%,27.4%,Fresh line,Yes,2026-W02-PHI@TEN
+2,2026-09-20,Pittsburgh Steelers,New England Patriots,34.3%,65.7%,Fresh line,Yes,2026-W02-PIT@NE
+2,2026-09-20,Seattle Seahawks,Arizona Cardinals,66.4%,33.6%,Fresh line,Yes,2026-W02-SEA@ARI
+2,2026-09-20,Washington Commanders,Dallas Cowboys,34.3%,65.7%,Fresh line,Yes,2026-W02-WAS@DAL
+2,2026-09-21,New York Giants,Los Angeles Rams,25.0%,75.0%,Fresh line,Yes,2026-W02-NYG@LAR
+3,2026-09-24,Atlanta Falcons,Green Bay Packers,32.0%,68.0%,Fresh line,,2026-W03-ATL@GB
+3,2026-09-27,Arizona Cardinals,San Francisco 49ers,21.3%,78.7%,Fresh line,,2026-W03-ARI@SF

@@ -1,0 +1,34 @@
+{
+  "run_type": "refresh",
+  "version": 6,
+  "as_of": "2026-10-13T15:00:00Z",
+  "current_week": 6,
+  "counts": {
+    "newly_frozen": 15,
+    "rows_in": 28,
+    "rows_rejected": 0,
+    "rows_matched": 28,
+    "lines_refreshed": 28,
+    "active_games": 193,
+    "stale_adjusted": 94,
+    "probabilities_changed": 122
+  },
+  "details": {
+    "adjustment_skill": {
+      "n": 7,
+      "mean_abs_err_adjusted_logit": 0.3517,
+      "mean_abs_err_stale_logit": 0.4489,
+      "share_improved": 1.0
+    },
+    "ratings": {
+      "n_obs": 28,
+      "dt_weeks": 1.0,
+      "rms_innovation_logit": 0.1363,
+      "max_abs_rating_change": 0.1068,
+      "scale_drift_slope": -0.0194,
+      "snapshot_id": 5
+    }
+  },
+  "issues": [],
+  "rejected_rows": []
+}

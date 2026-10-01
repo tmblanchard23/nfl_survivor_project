@@ -1,0 +1,28 @@
+{
+  "run_type": "refresh",
+  "version": 3,
+  "as_of": "2026-09-22T15:00:00Z",
+  "current_week": 3,
+  "counts": {
+    "newly_frozen": 16,
+    "rows_in": 32,
+    "rows_rejected": 0,
+    "rows_matched": 32,
+    "lines_refreshed": 32,
+    "active_games": 240,
+    "stale_adjusted": 92,
+    "probabilities_changed": 123
+  },
+  "details": {
+    "ratings": {
+      "n_obs": 32,
+      "dt_weeks": 1.0,
+      "rms_innovation_logit": 0.349,
+      "max_abs_rating_change": 0.3165,
+      "scale_drift_slope": 0.0312,
+      "snapshot_id": 2
+    }
+  },
+  "issues": [],
+  "rejected_rows": []
+}
