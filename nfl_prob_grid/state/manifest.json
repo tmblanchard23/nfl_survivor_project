@@ -40,8 +40,34 @@
       "current_week": 3,
       "n_games": 272,
       "created_utc": "2026-09-26T03:43:59Z"
+    },
+    {
+      "version": 4,
+      "file": "master_v0004.csv",
+      "run_type": "refresh",
+      "sha256": "d74d0f6f829f2f553accf03d94bd47af123b48023030476b3518b1699ae61511",
+      "parent_sha256": "06eda8e2d203e0d72106fbd5edb41723353de60a65db5644044ebad5a1c68b1f",
+      "ratings_sha256": "83adea3162b444e06934511ee5d06b5760d2af94b0031971354fdb98b46f6445",
+      "rating_state_sha256": "8c3abc2443d450c7f4270b7451ccca05d628f98892ebab2ef0a0138d23dbcec2",
+      "as_of": "2026-10-01T22:19:52Z",
+      "current_week": 4,
+      "n_games": 272,
+      "created_utc": "2026-10-01T22:19:52Z"
+    },
+    {
+      "version": 5,
+      "file": "master_v0005.csv",
+      "run_type": "refresh",
+      "sha256": "9bea2d9c360d3749a83d6b0fec2782675f28df71162b9900c043032fe3dc110f",
+      "parent_sha256": "d74d0f6f829f2f553accf03d94bd47af123b48023030476b3518b1699ae61511",
+      "ratings_sha256": "d1e5659b7db1c090f7d597760fac6821ae2a5169962f06d454c835ff067b8897",
+      "rating_state_sha256": "6931b02b391a0d2be4a801183ec8c318a531530306f472b8085d634ccf9232f4",
+      "as_of": "2026-10-08T21:51:20Z",
+      "current_week": 5,
+      "n_games": 272,
+      "created_utc": "2026-10-08T21:51:20Z"
     }
   ],
-  "current_version": 3,
-  "current_week": 3
+  "current_version": 5,
+  "current_week": 5
 }

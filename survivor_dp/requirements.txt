@@ -2,3 +2,6 @@ numpy
 scipy
 gspread
 google-auth
+certifi
+beautifulsoup4
+lxml

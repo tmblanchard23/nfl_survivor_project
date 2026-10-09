@@ -1,10 +1,3 @@
-"""
-Reads config.toml (see the copy at the project root for the annotated
-template). Relative paths inside it are resolved relative to the config
-file's own folder -- NOT the folder you happen to run the command from --
-so `credentials = "../nfl_prob_grid/service_account.json"` works no matter
-where you are in the terminal.
-"""
 from __future__ import annotations
 import tomllib
 from dataclasses import dataclass
@@ -15,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
 class ConfigError(Exception):
-    """A problem with config.toml, phrased for a human to fix."""
+    pass
 
 
 @dataclass
@@ -27,9 +20,12 @@ class Config:
     pools_picks_tab: str
     my_player_label: str
     top_n: int
+    survivorgrid_enabled: bool
+    survivorgrid_season: int | None
+    survivorgrid_blend_weight: float | None
 
 
-def find_config(explicit: str | None) -> Path:
+def find_config(explicit) -> Path:
     if explicit:
         p = Path(explicit).expanduser().resolve()
         if not p.exists():
@@ -43,7 +39,7 @@ def find_config(explicit: str | None) -> Path:
         f"The project ships with one at the top level of the survivor_dp folder.")
 
 
-def load_config(explicit_path: str | None = None) -> Config:
+def load_config(explicit_path=None) -> Config:
     path = find_config(explicit_path)
     try:
         data = tomllib.loads(path.read_text())
@@ -53,6 +49,7 @@ def load_config(explicit_path: str | None = None) -> Config:
 
     sheet = data.get("sheet", {})
     pool = data.get("pool", {})
+    sg = data.get("survivorgrid", {})
 
     spreadsheet = str(sheet.get("spreadsheet", "")).strip()
     if not spreadsheet or spreadsheet == PLACEHOLDER:
@@ -65,12 +62,14 @@ def load_config(explicit_path: str | None = None) -> Config:
     if not cred.is_absolute():
         cred = (path.parent / cred).resolve()
 
+    blend = sg.get("blend_weight", None)
     return Config(
-        path=path,
-        spreadsheet=spreadsheet,
-        credentials=cred,
+        path=path, spreadsheet=spreadsheet, credentials=cred,
         master_game_table_tab=str(sheet.get("master_game_table_tab", "Master Game Table")),
         pools_picks_tab=str(sheet.get("pools_picks_tab", "Pools Picks")),
         my_player_label=str(pool.get("my_player_label", "Me")),
         top_n=int(pool.get("top_n", 5)),
+        survivorgrid_enabled=bool(sg.get("enabled", False)),
+        survivorgrid_season=(int(sg["season"]) if "season" in sg else None),
+        survivorgrid_blend_weight=(float(blend) if blend is not None else None),
     )
